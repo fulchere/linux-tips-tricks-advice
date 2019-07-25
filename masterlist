@@ -1,3 +1,14 @@
+==print working directory
+$ pwd
+
+==list files in cwd
+$ ls
+
+==change directory
+$ cd nextfolder
+or to move one level up
+$ cd ..
+
 ==using nkrok
 navigate to /home/fulcher
 $ ./ngrok http 8080
@@ -16,6 +27,15 @@ $ apt update
 ==list all packages
 $ apt list
 
+==makefiles in epics iocs
+make in top level dir
+$ make
+clean unnecessary files
+$ make distclean
+
+==make top level dir from bottom level dir
+$ make -C ../../
+
 ==unzip .tar.gz or .tar.xz files
 $ tar -xvzf filename.tar.gz
 or if .xz
@@ -29,6 +49,18 @@ $ deactivate
 
 ==run .sh file
 $ bash filename.sh
+
+==creating python virtual env
+$ python3 -m venv env
+to activate it
+$ source env/bin/activate
+to deactivate
+$ deactivate
+
+==within virtual env
+you can use pip, examples graphene and requests
+$ pip install graphene
+$ pip install requests
 
 ==python Conda package manager
 https://docs.conda.io/en/latest/miniconda.html
