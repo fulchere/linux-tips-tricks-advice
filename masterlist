@@ -1,0 +1,56 @@
+==using nkrok
+navigate to /home/fulcher
+$ ./ngrok http 8080
+8080, or whatever port
+
+==find a certain word in a set of files or directory
+grep -rnw '/path/to/somewhere/' -e 'pattern'
+
+==install package
+$ apt search pkgname
+$ sudo apt install pkgname
+
+==update packages
+$ apt update
+
+==list all packages
+$ apt list
+
+==unzip .tar.gz or .tar.xz files
+$ tar -xvzf filename.tar.gz
+or if .xz
+$ tar -xvxf filename.db.tar.xz
+
+==python virtual enviroment
+navigate to bin folder where the activate file is
+$ source activate
+to leave the virtual environment
+$ deactivate
+
+==run .sh file
+$ bash filename.sh
+
+==python Conda package manager
+https://docs.conda.io/en/latest/miniconda.html
+
+==switching between python3.7 (latest, conda virtualenv)
+$ conda activate
+and to return to normal
+$ conda deactivate
+
+==setting environment variables
+example setting the FLASK_APP env var to app.py
+$ export FLASK_APP=app.py
+
+==do not do
+$ sudo make
+or
+$ sudo make install
+as this could write into system files (sudo access),
+make sure you have available
+$ make uninstall
+
+==list make targets
+double press tab
+$ make \t\t
+
