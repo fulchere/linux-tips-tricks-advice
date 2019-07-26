@@ -94,7 +94,7 @@ as this could write into system files (sudo access),
 make sure you have available
 $ make uninstall
 
-==list make targets
+==list availabel make targets
 double press tab
 $ make \t\t
 
@@ -114,3 +114,6 @@ and in the actual .sh file at the above dir put
 cd PATH/TO/FILE
 xed filename
 
+
+==git max file storage of 100mb
+can use git lfs if needed otw
