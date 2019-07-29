@@ -126,3 +126,10 @@ $ cd s
 
 ==git max file storage of 100mb
 can use git lfs if needed otw
+
+==git create new branch
+$ git checkout -b nameofnewbranch
+then to merge to original (master)
+$ git checkout master
+then to merge your branch and master
+$ git merge nameofnewbranch
