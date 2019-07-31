@@ -122,10 +122,10 @@ examples:
 if you have four files with names that start with s
 then if you double press tab (\t\t) then it lists them
 $ cd s 
--> shell.sh seashore.sh sally.sh she.sh
+outputs -> shell.sh seashore.sh sally.sh she.sh
 
 ==git max file storage of 100mb
-can use git lfs if needed otw
+can use git lfs (large file storage) if needed
 
 ==git create new branch
 $ git checkout -b nameofnewbranch
