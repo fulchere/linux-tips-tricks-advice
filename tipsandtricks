@@ -17,6 +17,9 @@ $ cd nextfolder
 or to move one level up
 $ cd ..
 
+==ip information
+$ ifconfig
+
 ==using nkrok
 navigate to /home/fulcher
 $ ./ngrok http 8080
