@@ -90,6 +90,9 @@ $ conda deactivate
 example setting the FLASK_APP env var to app.py
 $ export FLASK_APP=app.py
 
+==flask debug mode
+$ export FLASK_ENV=development
+
 ==do not do
 $ sudo make
 or
