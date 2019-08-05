@@ -7,110 +7,110 @@ my sys info --
 >>Linux fulcher 4.9.0-9-amd64 #1 SMP Debian 4.9.168-1+deb9u4 (2019-07-19) x86_64 GNU/Linux<<
 
 ==print working directory
-$ pwd
+~$ pwd
 
 ==list files in cwd
-$ ls
+~$ ls
 
 ==change directory
-$ cd nextfolder
+~$ cd nextfolder
 or to move one level up
-$ cd ..
+~$ cd ..
 
 ==ip information
-$ ifconfig
+~$ ifconfig
 
 ==using nkrok
 navigate to /home/fulcher
-$ ./ngrok http 8080
+~$ ./ngrok http 8080
 8080, or whatever port
 
 ==to get current linux information
-$ lsb_release -a
+~$ lsb_release -a
 and
-$ uname -a
+~$ uname -a
 
 ==find a certain word in a set of files or directory
 grep -rnw '/path/to/somewhere/' -e 'pattern'
 
 ==install package
-$ apt search pkgname
-$ sudo apt install pkgname
+~$ apt search pkgname
+~$ sudo apt install pkgname
 
 ==update packages
-$ apt update
+~$ apt update
 
 ==list all packages
-$ apt list
+~$ apt list
 
 ==makefiles in epics iocs
 make in top level dir
-$ make
+~$ make
 clean unnecessary files
-$ make distclean
+~$ make distclean
 
 ==make top level dir from bottom level dir
-$ make -C ../../
+~$ make -C ../../
 
 ==unzip .tar.gz or .tar.xz files
-$ tar -xvzf filename.tar.gz
+~$ tar -xvzf filename.tar.gz
 or if .xz
-$ tar -xvxf filename.db.tar.xz
+~$ tar -xvxf filename.db.tar.xz
 
 ==python virtual enviroment
 navigate to bin folder where the activate file is
-$ source activate
+~$ source activate
 to leave the virtual environment
-$ deactivate
+~$ deactivate
 
 ==run .sh file
-$ bash filename.sh
+~$ bash filename.sh
 
 ==creating python virtual env
-$ python3 -m venv env
+~$ python3 -m venv env
 to activate it
-$ source env/bin/activate
+~$ source env/bin/activate
 to deactivate
-$ deactivate
+~$ deactivate
 
 ==within virtual env
 you can use pip, examples graphene and requests
-$ pip install graphene
-$ pip install requests
+~$ pip install graphene
+~$ pip install requests
 
 ==python Conda package manager
 https://docs.conda.io/en/latest/miniconda.html
 
 ==switching between python3.7 (latest, conda virtualenv)
-$ conda activate
+~$ conda activate
 and to return to normal
-$ conda deactivate
+~$ conda deactivate
 
 ==setting environment variables
 example setting the FLASK_APP env var to app.py
-$ export FLASK_APP=app.py
+~$ export FLASK_APP=app.py
 
 ==flask debug mode
-$ export FLASK_ENV=development
+~$ export FLASK_ENV=development
 
 ==do not do
-$ sudo make
+~$ sudo make
 or
-$ sudo make install
+~$ sudo make install
 as this could write into system files (sudo access),
 make sure you have available
-$ make uninstall
+~$ make uninstall
 
 ==list availabel make targets
 double press tab
-$ make \t\t
+~$ make \t\t
 
 ==make a file executable (./)
-$ chmod +x filename
+~$ chmod +x filename
 example
-$ chmod +x tips.sh
+~$ chmod +x tips.sh
 
-==expose hidden files and directories
+==show hidden files and directories
 ctrl + h
 
 ==make bash file accessable from home directory (~)
@@ -127,15 +127,15 @@ of all available autocompletes
 examples:
 if you have four files with names that start with s
 then if you double press tab (\t\t) then it lists them
-$ cd s 
+~$ cd s 
 outputs -> shell.sh seashore.sh sally.sh she.sh
 
 ==git max file storage of 100mb
 can use git lfs (large file storage) if needed
 
 ==git create new branch
-$ git checkout -b nameofnewbranch
+~$ git checkout -b nameofnewbranch
 then to merge to original (master)
-$ git checkout master
+~$ git checkout master
 then to merge your branch and master
-$ git merge nameofnewbranch
+~$ git merge nameofnewbranch
