@@ -139,3 +139,11 @@ then to merge to original (master)
 ~$ git checkout master
 then to merge your branch and master
 ~$ git merge nameofnewbranch
+
+==create python ioc
+list types
+~$ makeBaseApp -l
+create all except iocBoot folder
+~$ makeBaseApp -t diagPyDevSup something-ioc
+create iocBoot folder
+~$ makeBaseApp -i -t diagPyDevSup something-ioc
