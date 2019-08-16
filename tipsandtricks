@@ -147,3 +147,6 @@ create all except iocBoot folder
 ~$ makeBaseApp -t diagPyDevSup something-ioc
 create iocBoot folder
 ~$ makeBaseApp -i -t diagPyDevSup something-ioc
+
+==pretty print json in python
+print(json.dumps(name_of_json, indent=4, sort_keys=True))
